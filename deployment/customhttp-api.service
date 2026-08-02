@@ -1,0 +1,17 @@
+[Unit]
+Description=CUSTOM HTTP API
+After=network.target postgresql.service
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/CustomHTTP/backend
+EnvironmentFile=/opt/CustomHTTP/.env
+ExecStart=/usr/bin/node src/index.js
+Restart=always
+RestartSec=5
+User=customhttp
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

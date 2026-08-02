@@ -1,0 +1,2 @@
+# URL del backend CUSTOM HTTP usada al compilar el APK.
+API_URL=https://api.midominio.com

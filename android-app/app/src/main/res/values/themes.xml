@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.CustomHttp" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+    <style name="Theme.CustomHttp.Splash" parent="Theme.CustomHttp" />
+</resources>

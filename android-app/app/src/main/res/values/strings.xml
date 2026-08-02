@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CUSTOM HTTP</string>
+    <string name="import_config">Importar configuracion CUSTOM HTTP</string>
+    <string name="user">USUARIO</string>
+    <string name="password">CONTRASENA</string>
+    <string name="login">INICIAR SESION</string>
+</resources>

@@ -1,0 +1,6 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class com.customhttp.app.**$$serializer { *; }
+-keepclassmembers class com.customhttp.app.** { *** Companion; }
+-keepclasseswithmembers class com.customhttp.app.** { kotlinx.serialization.KSerializer serializer(...); }
+-dontwarn okhttp3.**
+-dontwarn okio.**
